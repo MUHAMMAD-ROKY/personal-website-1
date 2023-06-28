@@ -1,0 +1,52 @@
+/*universal*/
+*{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*navication section start*/
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 50px 200px;
+}
+.navication{
+    background-color: rgb(19, 155, 218);
+}
+.logos{
+    margin: 10px 30px;
+}
+.logos:hover{
+    color:rgb(167, 10, 101);
+}
+.logo-color{
+    color: crimson;
+}
+.btn1{
+    background-color: rgb(166, 36, 221);
+    color:bisque;
+    width:70px;
+    height:30px;
+    border:none;
+    border-radius:20px;
+}
+.btn1:hover{
+    background-color: rgba(212, 10, 10, 0.849);
+}
+.navication ul{
+    overflow: auto;
+}
+.navication li{
+    float: left;
+    list-style: none;
+    margin: 10px 15px;
+}
+.navication li a{
+    text-decoration:none;
+}
+.navication li a:hover{
+    color:rgb(255, 252, 252);
+}
+
+/*navication section start*/
