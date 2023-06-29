@@ -66,6 +66,7 @@ nav{
     align-items: center;
     background-color: rgb(18, 143, 143);
     border-radius:0% 40% 30% 30%;
+    padding: 40px;
 }
 .banner:hover{
    background-color:rgb(180, 20, 68);
@@ -90,3 +91,26 @@ nav{
     text-transform: lowercase;
 }
 /*banner section end*/
+
+
+/*about section start*/
+.About{
+    height:230px;
+    padding: 30Px;
+    margin:10px 200px;
+    background-color: rgb(133, 68, 133);
+    text-align: center;
+    color: bisque;
+    border:solid greenyellow 2px;
+    
+}
+.About-title{
+    padding-top: 20px;
+}
+.About-title:hover{
+    color:rgb(14, 255, 122);
+}
+.About-description{
+    text-shadow:1px 1px 3px rgb(120, 216, 11);
+}
+/*about section end*/
