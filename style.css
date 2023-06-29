@@ -1,8 +1,6 @@
 /*universal*/
 *{
     margin:0;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
 /*navication section start*/
@@ -10,6 +8,8 @@ nav{
     display: flex;
     justify-content:space-between;
     margin: 50px 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .navication{
     background-color: rgb(19, 155, 218);
@@ -50,3 +50,43 @@ nav{
 }
 
 /*navication section start*/
+
+
+/*banner section start*/
+
+.img-logo1{
+    width: 200px;
+    height: 200px;
+    border: solid 1px rgb(6, 230, 118);
+    border-radius: 50%;
+}
+.banner{
+    display: flex;
+    margin:0px 200px;
+    align-items: center;
+    background-color: rgb(18, 143, 143);
+    border-radius:0% 40% 30% 30%;
+}
+.banner:hover{
+   background-color:rgb(180, 20, 68);
+}
+.All-doc{
+    text-align:center;
+}
+
+.heder-title2{
+    color:chartreuse;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.heder-title1{
+    margin-top: 20px;
+}
+.description{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    text-transform: lowercase;
+}
+/*banner section end*/
